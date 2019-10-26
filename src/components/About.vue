@@ -12,10 +12,6 @@
 
     <div class="mb-6 border-b max-w-lg"></div>
 
-    <h2 class="md:text-lg text-gray-900 font-medium">
-      What I've been working on
-    </h2>
-
     <div v-if="false">
       {{msg}}
     </div>
