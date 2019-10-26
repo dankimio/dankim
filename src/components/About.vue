@@ -10,11 +10,13 @@
       Currently based in Moscow, Russia
     </p>
 
-    <OutlinedButton class="mr-3 md:mr-4">
+    <OutlinedButton href="https://www.instagram.com/dankimio" class="mr-3 md:mr-4">
+      <img :src="require('@/assets/images/icon-instagram.svg')" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
 
-    <OutlinedButton class="mr-3 md:mr-4">
+    <OutlinedButton href="https://twitter.com/dankimio" class="mr-3 md:mr-4">
+      <img :src="require('@/assets/images/icon-twitter.svg')" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
 
