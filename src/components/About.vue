@@ -10,8 +10,6 @@
       Currently based in Moscow, Russia
     </p>
 
-    <div class="mb-6 border-b max-w-lg"></div>
-
     <div v-if="false">
       {{msg}}
     </div>
