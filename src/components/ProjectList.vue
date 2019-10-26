@@ -4,8 +4,11 @@
       What I've been working on
     </h2>
 
-    <Project name="test" class="mb-6" />
-    <Project name="test" class="mb-6" />
+    <Project
+      v-for="project in projects"
+      :name="project.name"
+      :key="project.name"
+      class="mb-6 md:mb-8" />
   </div>
 </template>
 
@@ -14,7 +17,15 @@ import Project from './Project.vue'
 
 export default {
   name: 'ProjectList',
-  components: { Project }
+  components: { Project },
+  data() {
+    return {
+      projects: [
+        { name: 'Frogogo' },
+        { name: 'Chisto' }
+      ]
+    }
+  }
 }
 </script>
 
