@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-6 pt-6 md:pt-32 lg:pt-48 md:max-w-lg lg:max-w-xl">
+  <div>
     <h1 class="mb-5 text-4xl md:text-5xl font-bold text-gray-900">
       Hi, I'm Dan Kim.
     </h1>
