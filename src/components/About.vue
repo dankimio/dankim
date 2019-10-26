@@ -10,6 +10,14 @@
       Currently based in Moscow, Russia
     </p>
 
+    <OutlinedButton class="mr-3 md:mr-4">
+      dankimio
+    </OutlinedButton>
+
+    <OutlinedButton class="mr-3 md:mr-4">
+      dankimio
+    </OutlinedButton>
+
     <div v-if="false">
       {{msg}}
     </div>
@@ -17,8 +25,11 @@
 </template>
 
 <script>
+import OutlinedButton from './OutlinedButton.vue'
+
 export default {
   name: 'About',
+  components: { OutlinedButton },
   props: {
     msg: String
   }
