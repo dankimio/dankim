@@ -9,6 +9,7 @@
       :name="project.name"
       :key="project.name"
       :src="project.src"
+      :url="project.url"
       class="mb-6 md:mb-8" />
   </div>
 </template>
@@ -24,15 +25,18 @@ export default {
       projects: [
         {
           name: 'Frogogo',
-          src: require('@/assets/images/logo-frogogo.svg')
+          src: require('@/assets/images/logo-frogogo.svg'),
+          url: 'https://frogogo.ru'
         },
         {
           name: 'Chisto',
-          src: require('@/assets/images/logo-chisto.svg')
+          src: require('@/assets/images/logo-chisto.svg'),
+          url: 'https://chisto.xyz'
         },
         {
           name: 'Spacecards',
-          src: require('@/assets/images/logo-spacecards.svg')
+          src: require('@/assets/images/logo-spacecards.svg'),
+          url: 'https://spacecards.app'
         }
       ]
     }

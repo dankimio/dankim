@@ -3,9 +3,11 @@
     <img :src="src" :alt="name" class="w-12 h-12 mr-5">
 
     <div class="flex flex-col">
-      <p class="mb-1 md:text-lg text-gray-900">
+      <a :href="url" class="mb-1 md:text-lg text-gray-900">
         {{name}}
-      </p>
+
+        <img src="@/assets/images/icon-arrow.svg" class="inline-block ml-2 w-3 h-3">
+      </a>
       <p class="text-sm md:text-base text-gray-700">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita minima repudiandae!
       </p>
@@ -18,7 +20,8 @@ export default {
   name: 'Project',
   props: {
     name: String,
-    src: String
+    src: String,
+    url: String
   }
 }
 </script>
