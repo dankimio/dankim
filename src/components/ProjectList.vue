@@ -8,6 +8,7 @@
       v-for="project in projects"
       :name="project.name"
       :key="project.name"
+      :src="project.src"
       class="mb-6 md:mb-8" />
   </div>
 </template>
@@ -21,8 +22,18 @@ export default {
   data() {
     return {
       projects: [
-        { name: 'Frogogo' },
-        { name: 'Chisto' }
+        {
+          name: 'Frogogo',
+          src: require('@/assets/images/logo-frogogo.svg')
+        },
+        {
+          name: 'Chisto',
+          src: require('@/assets/images/logo-chisto.svg')
+        },
+        {
+          name: 'Spacecards',
+          src: require('@/assets/images/logo-spacecards.svg')
+        }
       ]
     }
   }

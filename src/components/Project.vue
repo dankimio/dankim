@@ -1,8 +1,6 @@
 <template>
   <div class="flex items-start">
-    <img src="@/assets/images/logo-frogogo.svg"
-      :alt="name"
-      class="w-12 h-12 mr-5">
+    <img :src="src" :alt="name" class="w-12 h-12 mr-5">
 
     <div class="flex flex-col">
       <p class="mb-1 md:text-lg text-gray-900">
@@ -19,7 +17,8 @@
 export default {
   name: 'Project',
   props: {
-    name: String
+    name: String,
+    src: String
   }
 }
 </script>
