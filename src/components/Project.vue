@@ -1,9 +1,16 @@
 <template>
-  <div class="flex">
-    <img src="@/assets/images/logo-frogogo.svg" alt="" class="mr-4">
+  <div class="flex items-start">
+    <img src="@/assets/images/logo-frogogo.svg"
+      :alt="name"
+      class="w-12 h-12 mr-5">
+
     <div class="flex flex-col">
-      <p>{{name}}</p>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita minima repudiandae repellat rerum!</p>
+      <p class="mb-1 md:text-lg text-gray-900">
+        {{name}}
+      </p>
+      <p class="text-sm md:text-base text-gray-700">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita minima repudiandae!
+      </p>
     </div>
   </div>
 </template>
