@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-6 border-b max-w-lg"></div>
+  <div class="my-6 md:my-8 border-b max-w-lg"></div>
 </template>
 
 <script>
