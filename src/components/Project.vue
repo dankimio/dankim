@@ -2,7 +2,7 @@
   <div class="flex items-start">
     <img :src="src" :alt="name" class="w-12 h-12 mr-5">
 
-    <div class="flex flex-col">
+    <div class="flex flex-col items-start">
       <a :href="url" class="mb-1 md:text-lg text-gray-900 hover:text-gray-700">
         {{name}}
 
