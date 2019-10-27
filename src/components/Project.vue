@@ -3,7 +3,9 @@
     <img :src="src" :alt="name" class="w-12 h-12 mr-5">
 
     <div class="flex flex-col items-start">
-      <a :href="url" class="mb-1 md:text-lg text-gray-900 hover:text-gray-700">
+      <a :href="url"
+        target="_blank"
+        class="mb-1 md:text-lg text-gray-900 hover:text-gray-700">
         {{name}}
 
         <img src="@/assets/images/icon-arrow.svg" class="inline-block ml-2 w-3 h-3">

@@ -1,5 +1,9 @@
 <template>
-  <a href="#" class="inline-flex items-center text-center px-3 py-1 border border-gray-400 text-gray-800 tracking-wide cursor-pointer hover:bg-gray-800 hover:text-white hover:border-gray-800">
+  <a
+    href="#"
+    :target="target"
+    class="inline-flex items-center text-center px-3 py-1 border border-gray-400 text-gray-800 tracking-wide cursor-pointer hover:bg-gray-800 hover:text-white hover:border-gray-800"
+  >
     <slot></slot>
   </a>
 </template>
@@ -8,7 +12,8 @@
 export default {
   name: 'OutlinedButton',
   props: {
-    image: String
+    image: String,
+    target: String
   }
 }
 </script>

@@ -10,12 +10,20 @@
       Currently based in Moscow, Russia
     </p>
 
-    <OutlinedButton href="https://www.instagram.com/dankimio/" class="mr-3 md:mr-4">
+    <OutlinedButton
+      href="https://www.instagram.com/dankimio/"
+      target="_blank"
+      class="mr-3 md:mr-4"
+    >
       <img :src="require('@/assets/images/icon-instagram.svg')" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
 
-    <OutlinedButton href="https://twitter.com/dankimio" class="mr-3 md:mr-4">
+    <OutlinedButton
+      href="https://twitter.com/dankimio"
+      target="_blank"
+      class="mr-3 md:mr-4"
+    >
       <img :src="require('@/assets/images/icon-twitter.svg')" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
