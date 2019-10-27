@@ -11,7 +11,7 @@
         <img src="@/assets/images/icon-arrow.svg" class="inline-block ml-2 w-3 h-3">
       </a>
       <p class="text-sm md:text-base text-gray-700">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed expedita minima repudiandae!
+        {{description}}
       </p>
     </div>
   </div>
@@ -21,6 +21,7 @@
 export default {
   name: 'Project',
   props: {
+    description: String,
     name: String,
     src: String,
     url: String
