@@ -6,10 +6,8 @@
 
     <Project
       v-for="project in projects"
-      :name="project.name"
+      v-bind="project"
       :key="project.name"
-      :src="project.src"
-      :url="project.url"
       class="mb-6 md:mb-8" />
   </div>
 </template>
