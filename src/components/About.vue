@@ -27,10 +27,6 @@
       <img :src="require('@/assets/images/icon-twitter.svg')" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
-
-    <div v-if="false">
-      {{msg}}
-    </div>
   </div>
 </template>
 
@@ -40,9 +36,7 @@ import OutlinedButton from './OutlinedButton.vue'
 export default {
   name: 'About',
   components: { OutlinedButton },
-  props: {
-    msg: String
-  }
+  props: {}
 }
 </script>
 
