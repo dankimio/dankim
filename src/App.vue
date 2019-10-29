@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="container px-6 pt-6 md:pt-32 lg:pt-40 md:max-w-lg lg:max-w-xl">
+  <div id="app" class="container px-6 pt-6 md:pt-32 md:max-w-lg lg:max-w-xl">
     <About />
 
     <Divider />
