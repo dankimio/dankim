@@ -7,6 +7,10 @@
     <ProjectList />
 
     <Divider />
+
+    <Photography />
+
+    <Divider />
   </div>
 </template>
 
@@ -14,11 +18,12 @@
 import About from './components/About.vue'
 import Divider from './components/Divider.vue'
 import ProjectList from './components/ProjectList.vue'
+import Photography from './components/Photography.vue'
 
 export default {
   name: 'app',
   components: {
-    About, Divider, ProjectList
+    About, Divider, ProjectList, Photography
   }
 }
 </script>
