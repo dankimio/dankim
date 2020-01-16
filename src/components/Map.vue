@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="mb-3 md:text-lg text-gray-900 font-medium">
-      Photography
+      Travel
     </h2>
 
     <p class="mb-3">
