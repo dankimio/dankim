@@ -41,6 +41,8 @@ export default {
           FI: { visits: 'yes' },
           FR: { visits: 'yes' },
           GB: { visits: 'yes' },
+          CN: { visits: 'yes' },
+          ID: { visits: 'yes' },
           IS: { visits: 'yes' },
           KR: { visits: 'yes' },
           LT: { visits: 'yes' },
