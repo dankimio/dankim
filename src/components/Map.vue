@@ -5,7 +5,6 @@
     </h2>
 
     <p class="mb-3">
-      I have visited 21 countries so far. With 4 countries every year on average.
     </p>
 
     <div id="svgMap" class="mb-16"></div>
@@ -32,6 +31,7 @@ export default {
         },
         applyData: 'visits',
         values: {
+          AU: { visits: 'yes' },
           AZ: { visits: 'yes' },
           CY: { visits: 'yes' },
           DE: { visits: 'yes' },
