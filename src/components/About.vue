@@ -15,7 +15,7 @@
       target="_blank"
       class="mr-3 mb-3 sm:mb-1 md:mr-4"
     >
-      <img :src="require('@/assets/images/icon-instagram.svg')" alt="" class="mr-2 h-4 w-4">
+      <img src="/images/icon-instagram.svg" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
 
@@ -24,7 +24,7 @@
       target="_blank"
       class="mr-3 mb-3 sm:mb-1 md:mr-4"
     >
-      <img :src="require('@/assets/images/icon-twitter.svg')" alt="" class="mr-2 h-4 w-4">
+      <img src="/images/icon-twitter.svg" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
 
@@ -33,7 +33,7 @@
       target="_blank"
       class="mr-3 mb-3 sm:mb-1 md:mr-4"
     >
-      <img :src="require('@/assets/images/icon-github.svg')" alt="" class="mr-2 h-4 w-4">
+      <img src="/images/icon-github.svg" alt="" class="mr-2 h-4 w-4">
       dankimio
     </OutlinedButton>
   </div>

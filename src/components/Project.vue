@@ -8,7 +8,7 @@
         class="mb-1 md:text-lg text-gray-900 hover:text-gray-700">
         {{name}}
 
-        <img src="@/assets/images/icon-arrow.svg" class="inline-block ml-2 w-3 h-3" alt="Arrow">
+        <img src="/images/icon-arrow.svg" class="inline-block ml-2 w-3 h-3" alt="Arrow">
       </a>
       <p class="text-sm md:text-base text-gray-700">
         {{description}}

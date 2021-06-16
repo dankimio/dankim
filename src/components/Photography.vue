@@ -23,27 +23,27 @@ export default {
     return {
       photos: [
         {
-          src: require('@/assets/images/photography/instagram-1.jpg'),
+          src: '/images/photography/instagram-1.jpg',
           alt: 'Natural History Museum in London'
         },
         {
-          src: require('@/assets/images/photography/instagram-2.jpg'),
+          src: '/images/photography/instagram-2.jpg',
           alt: 'Waterhouse Square in London'
         },
         {
-          src: require('@/assets/images/photography/instagram-3.jpg'),
+          src: '/images/photography/instagram-3.jpg',
           alt: "Fremaasons' Hall in London"
         },
         {
-          src: require('@/assets/images/photography/instagram-4.jpg'),
+          src: '/images/photography/instagram-4.jpg',
           alt: 'Church at White Square in Moscow'
         },
         {
-          src: require('@/assets/images/photography/instagram-5.jpg'),
+          src: '/images/photography/instagram-5.jpg',
           alt: 'Houses in Moscow'
         },
         {
-          src: require('@/assets/images/photography/instagram-6.jpg'),
+          src: '/images/photography/instagram-6.jpg',
           alt: 'Houses in Moscow'
         }
       ]
