@@ -9,24 +9,19 @@
     <Divider />
 
     <Photography />
-
-    <Divider />
-
-    <Map />
   </div>
 </template>
 
 <script>
 import About from './components/About.vue'
 import Divider from './components/Divider.vue'
-import Map from './components/Map.vue'
 import ProjectList from './components/ProjectList.vue'
 import Photography from './components/Photography.vue'
 
 export default {
   name: 'app',
   components: {
-    About, Divider, Map, ProjectList, Photography
+    About, Divider, ProjectList, Photography
   }
 }
 </script>
