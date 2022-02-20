@@ -2,6 +2,6 @@
 
 ## Project setup
 ```
-yarn install
-yarn serve
+npm install
+npm run dev
 ```
